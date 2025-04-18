@@ -1,3 +1,4 @@
+git commit -m "Add files for eCommerce website"
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -23,3 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 
 .vercel
+.README.md

@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { Disclosure } from "@headlessui/react";
 import { useCart } from "react-use-cart";
-import eCom from "../assets/eCom.png";
+import log from "../assets/log.png";
 import AuthSection from "./AuthSection";
 import { Link } from "react-router-dom";
 
@@ -42,11 +42,11 @@ const Navbar = () => {
                         <div className="text-white font-[1000] font-[Helvetica] text-lg	">
                           <p className="flex ml-2">
                             <img
-                              src={eCom}
+                              src={log}
                               alt="eCom brand logo"
-                              className="ml-1 mr-2 w-6"
+                                className="w-[28px] h-[24px]"
                             />
-                            eCom
+                            EMeCom
                           </p>
                         </div>
                       </Link>
